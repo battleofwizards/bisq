@@ -20,7 +20,7 @@ package bisq.common.proto.persistable;
 
 import com.google.protobuf.Message;
 
-import org.springframework.util.CollectionUtils;
+import bisq.common.util.CollectionUtils;
 
 import java.util.ArrayList;
 import java.util.List;

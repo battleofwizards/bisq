@@ -23,7 +23,7 @@ import bisq.core.locale.Res;
 
 import com.google.protobuf.Message;
 
-import org.springframework.util.CollectionUtils;
+import bisq.common.util.CollectionUtils;
 
 import java.nio.charset.Charset;
 

@@ -29,7 +29,7 @@ import bisq.common.util.ExtraDataMapValidator;
 
 import com.google.protobuf.ByteString;
 
-import org.springframework.util.CollectionUtils;
+import bisq.common.util.CollectionUtils;
 
 import java.security.PublicKey;
 

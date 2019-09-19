@@ -20,7 +20,7 @@ package bisq.core.payment.payload;
 
 import com.google.protobuf.Message;
 
-import org.springframework.util.CollectionUtils;
+import bisq.common.util.CollectionUtils;
 
 import java.util.HashMap;
 import java.util.Map;

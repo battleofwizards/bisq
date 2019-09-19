@@ -26,7 +26,7 @@ import bisq.common.proto.ProtoUtil;
 
 import com.google.protobuf.ByteString;
 
-import org.springframework.util.CollectionUtils;
+import bisq.common.util.CollectionUtils;
 
 import java.util.ArrayList;
 import java.util.List;
