@@ -21,11 +21,6 @@ import bisq.core.dao.state.model.ImmutableDaoStateModel;
 
 import bisq.common.proto.ProtoUtil;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonValue;
-
 import lombok.AllArgsConstructor;
 import lombok.ToString;
 
@@ -34,8 +29,6 @@ import javax.annotation.concurrent.Immutable;
 @ToString
 @Immutable
 @AllArgsConstructor
-@JsonInclude(JsonInclude.Include.NON_NULL)
-@JsonIgnoreProperties(ignoreUnknown = true)
 public enum ScriptType implements ImmutableDaoStateModel {
     UNDEFINED("undefined"),
     // https://github.com/bitcoin/bitcoin/blob/master/src/script/standard.cpp
@@ -51,13 +44,10 @@ public enum ScriptType implements ImmutableDaoStateModel {
 
     private final String name;
 
-
-    @JsonValue
     private String getName() {
         return name;
     }
 
-    @JsonCreator
     public static ScriptType forName(String name) {
         if (name != null) {
             for (ScriptType scriptType : ScriptType.values()) {
