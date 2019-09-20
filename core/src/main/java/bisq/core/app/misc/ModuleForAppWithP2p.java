@@ -48,7 +48,7 @@ import bisq.common.proto.network.NetworkProtoResolver;
 import bisq.common.proto.persistable.PersistenceProtoResolver;
 import bisq.common.storage.Storage;
 
-import org.springframework.core.env.Environment;
+import bisq.common.springframework.Environment;
 
 import com.google.inject.Singleton;
 import com.google.inject.name.Names;

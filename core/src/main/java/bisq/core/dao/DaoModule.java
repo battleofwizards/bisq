@@ -88,7 +88,7 @@ import bisq.core.dao.state.unconfirmed.UnconfirmedBsqChangeOutputListService;
 
 import bisq.common.app.AppModule;
 
-import org.springframework.core.env.Environment;
+import bisq.common.springframework.Environment;
 
 import com.google.inject.Singleton;
 import com.google.inject.name.Names;

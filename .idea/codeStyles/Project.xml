@@ -174,6 +174,9 @@
       </option>
       <option name="ENABLE_JAVADOC_FORMATTING" value="false" />
     </JavaCodeStyleSettings>
+    <MarkdownNavigatorCodeStyleSettings>
+      <option name="RIGHT_MARGIN" value="72" />
+    </MarkdownNavigatorCodeStyleSettings>
     <Properties>
       <option name="KEEP_BLANK_LINES" value="true" />
     </Properties>

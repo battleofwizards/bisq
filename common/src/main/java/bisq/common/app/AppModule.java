@@ -17,7 +17,7 @@
 
 package bisq.common.app;
 
-import org.springframework.core.env.Environment;
+import bisq.common.springframework.Environment;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.Injector;

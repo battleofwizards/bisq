@@ -35,7 +35,7 @@ import bisq.common.util.Utilities;
 
 import org.bitcoinj.core.NetworkParameters;
 
-import org.springframework.core.env.Environment;
+import bisq.common.springframework.Environment;
 import org.springframework.core.env.JOptCommandLinePropertySource;
 import org.springframework.core.env.MutablePropertySources;
 import org.springframework.core.env.PropertiesPropertySource;

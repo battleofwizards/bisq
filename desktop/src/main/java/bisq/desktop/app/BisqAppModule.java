@@ -23,7 +23,7 @@ import bisq.core.CoreModule;
 
 import bisq.common.app.AppModule;
 
-import org.springframework.core.env.Environment;
+import bisq.common.springframework.Environment;
 
 public class BisqAppModule extends AppModule {
 

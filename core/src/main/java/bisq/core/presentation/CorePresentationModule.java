@@ -19,7 +19,7 @@ package bisq.core.presentation;
 
 import bisq.common.app.AppModule;
 
-import org.springframework.core.env.Environment;
+import bisq.common.springframework.Environment;
 
 import com.google.inject.Singleton;
 
